@@ -25,29 +25,21 @@ const page = () => {
           <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
             <h1 className="text-3xl font-bold text-primary">AI Mock Interview</h1>
             <nav className="flex flex-col sm:flex-row flex-wrap items-center justify-between mt-4 md:mt-0 space-y-4 sm:space-y-0 sm:space-x-4">
-              <div>
-                <iframe
-                  src="https://github.com/sponsors/modamaan/button"
-                  title="Sponsor modamaan on GitHub"
-                  height="32"
-                  width="114"
-                  className="border-0 rounded-lg">
-                </iframe>
-              </div>
+              
 
               <div>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/modamaan/Ai-mock-Interview">
+                  href="https://github.com/NoahK05/mock-interview-ai">
                   <FaGithub className="w-10 h-8" />
                 </a>
               </div>
 
               <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0">
                 <a href="#features" className="text-lg text-gray-800 mx-2 md:mx-4">Features</a>
-                <a href="#testimonials" className="text-lg text-gray-800 mx-2 md:mx-4">Testimonials</a>
-                <a href="#contact" className="text-lg text-gray-800 mx-2 md:mx-4">Contact</a>
+                <a href="#testimonials" className="text-lg text-gray-800 mx-2 md:mx-4">Reviews</a>
+                <a href="#contact" className="text-lg text-gray-800 mx-2 md:mx-4">Contact Us</a>
               </div>
             </nav>
           </div>
@@ -55,8 +47,8 @@ const page = () => {
 
         {/* Hero Section */}
         <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-gray-900 to-gray-400  px-6 md:px-0">
-          <h2 className="text-4xl md:text-5xl font-bold text-white">Ace Your Next Interview</h2>
-          <p className="mt-4 text-lg md:text-xl text-white ">Practice with AI-powered mock interviews and get personalized feedback</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-white">Nail Your Next Interview</h2>
+          <p className="mt-4 text-lg md:text-xl text-white ">Practice with AI-assisted mock interviews </p>
           <div className="mt-6 flex flex-col md:flex-row">
             <a
               href="/dashboard"
@@ -78,7 +70,7 @@ const page = () => {
           <div className="container mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-800">Features</h2>
             <p className="mt-4 text-lg text-gray-800">
-              Our AI Mock Interview platform offers a range of powerful features:
+              Our AI Mock Interview platform includes a variety of powerful features:
             </p>
             <div className="flex flex-wrap justify-center mt-8">
               <div className="w-full md:w-1/3 px-4 py-8">
@@ -111,17 +103,17 @@ const page = () => {
               <div className="w-full md:w-1/2 px-4 py-8">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <p className="text-gray-600">
-                    "The AI mock interviews were incredibly helpful. I felt much more confident going into my real interview."
+                    "The AI mock interviews were extremely helpful and significantly boosted my confidence before my real interview."
                   </p>
-                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Alex Johnson</h4>
+                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Ramayya venkat</h4>
                 </div>
               </div>
               <div className="w-full md:w-1/2 px-4 py-8">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <p className="text-gray-600">
-                    "The feedback was spot on and helped me improve my answers. Highly recommend this service!"
+                    "The feedback was spot on and made my answers much stronger. Highly recommended!"
                   </p>
-                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Sarah Williams</h4>
+                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Sarita slays</h4>
                 </div>
               </div>
             </div>
@@ -135,7 +127,7 @@ const page = () => {
       </main>
 
       <footer className="py-8 bg-black text-white text-center">
-        <p>© 2024 AI Mock Interview. All rights reserved.</p>
+        <p>© 2026 AI Mock Interview-SRU BATCH. All rights reserved.</p>
       </footer>
     </div>
   )
