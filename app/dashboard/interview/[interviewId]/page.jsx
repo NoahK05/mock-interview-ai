@@ -20,13 +20,25 @@ const Interview = ({ params }) => {
   }, []);
   
   const GetInterviewDetails = async () => {
+  try {
+    console.log("Searching for mockId:", params.interviewId);
+    
     const result = await db
       .select()
       .from(MockInterview)
       .where(eq(MockInterview.mockId, params.interviewId));
-      
+    
+    console.log("Query result:", result);
+    
+    if (result.length === 0) {
+      console.log("No interview found with this mockId");
+    }
+    
     setInterviewData(result[0]);
-  };
+  } catch (error) {
+    console.error("Database error details:", error);
+  }
+};
   return (
     <div className="my-10">
       <h2 className="font-bold text-2xl text-center">Let's Get Started</h2>
